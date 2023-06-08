@@ -8,7 +8,7 @@
 }
 
 .banner__wrapper::after {
-    content: url('/img/img-banner.png');
+    content: url('../img/img-banner.png');
     position: absolute;
     right: 0;
     bottom: 0;
