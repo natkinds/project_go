@@ -1,0 +1,37 @@
+.about {
+    overflow: hidden;
+}
+
+.about__image {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 100%;
+    margin-right: 74px;
+}
+
+.about__desc {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+}
+
+.about__text-wrapper {
+    margin-bottom: 48px;
+}
+
+.about__text {
+    white-space: pre-line;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.about__text:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.lorem {
+    display: inline-block;
+    width: 400px;
+}

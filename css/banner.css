@@ -1,0 +1,30 @@
+.banner {
+    padding-top: 0;
+}
+
+.banner__wrapper {
+    position: relative;
+    height: 823px;
+}
+
+.banner__wrapper::after {
+    content: url('/img/img-banner.png');
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.banner__title {
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 150px;
+    letter-spacing: -0.1em;
+    text-transform: uppercase;
+}
+
+.banner__text {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-left: 100px;
+}

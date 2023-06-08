@@ -1,0 +1,40 @@
+.adress {
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.adress__list-item:first-child {
+    margin-bottom: 38px;
+}
+
+.adress__list-item:nth-child(2) {
+    margin-bottom: 11px;
+}
+
+.adress__content {
+    padding-left: 65px;
+    white-space: pre-line;
+    font-style: normal;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.adress__location {
+    background-image: url('../img/icon-location.svg');
+}
+
+.adress__phone {
+    background-image: url('../img/icon-phone-call.svg');
+}
+
+.adress__email {
+    background-image: url('../img/icon-mail.svg');
+}
+
+.adress__text {
+    white-space: pre-line;
+    font-style: normal;
+}

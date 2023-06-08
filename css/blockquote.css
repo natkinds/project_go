@@ -1,0 +1,54 @@
+.blockquote {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.blockquote__text-wrapper {
+    margin-bottom: 39px;
+}
+
+.blockquote__text-wrapper::before {
+    content: "\201c";
+    width: 22px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.blockquote__text {
+    padding-top: 11px;
+    padding-left: 31px;
+    white-space: pre-line;
+}
+
+.blockquote__quotes, .blockquote__text-wrapper::before {
+    font-weight: 900;
+    color: #6C0287;
+}
+
+.blockquote__ref {
+    float: right;
+}
+
+.blockquote__ref-photo {
+    object-position: 0 -10px;
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+    border-radius: 50%;
+    float: left;
+}
+
+.blockquote__ref-text {
+    display: inline-block;
+    white-space: pre-line;
+    width: 279px;
+    font-size: 20px;
+    line-height: 28px;
+    font-style: normal;
+    text-transform: none;
+}
