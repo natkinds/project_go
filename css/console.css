@@ -1,0 +1,32 @@
+.console__item {
+    position: relative;
+    margin-left: 39px;
+}
+
+.console__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.console__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    cursor: pointer;
+}
+
+.console__radio {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    margin-left: -39px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.console__input:checked + .console__radio {
+    border: 7px solid #FFFFFF;
+    background-color: #000000;
+}

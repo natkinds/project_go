@@ -1,0 +1,19 @@
+.copyrights {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.copyrights__item {
+    display: block;
+}
+
+.copyrights__developer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.copyrights__developer-item {
+    text-align: end;
+}

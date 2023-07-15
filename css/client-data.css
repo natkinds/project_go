@@ -1,0 +1,49 @@
+.client-data__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    row-gap: 14px;
+}
+
+.client-data__item {
+    display: block;
+    width: 300px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.client-data__item-name {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.client-data__item_people::placeholder {
+    padding-left: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #211E1E;
+}
+
+.client-data__item_people {
+    order: 1;
+}
+
+.client-data__item_surname {
+    order: 2;
+}
+
+.client-data__item_email {
+    order: 3;
+}
+
+.client-data__input {
+    width: 100%;
+    height: 52px;
+    padding: 0 15px;
+    border: none;
+}

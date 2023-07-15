@@ -1,0 +1,18 @@
+.advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 496px;
+}
+
+.advantages__figure {
+    position: relative;
+    height: 228px;
+}
+
+.advantages__item-name {
+    position: absolute;
+    top: 166px;
+    left: 40px;
+}

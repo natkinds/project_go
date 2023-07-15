@@ -1,0 +1,33 @@
+.additional__item {
+    position: relative;
+    margin-left: 37px;
+}
+
+.additional__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.additional__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    cursor: pointer;
+}
+
+.additional__checkbox {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: -37px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.additional__input:checked + .additional__checkbox {
+    background-image: url('../img/icon_checkbox_checked.svg');
+    background-position: center;
+    background-size: 0.9em;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,33 @@
+.table-games__item {
+    position: relative;
+    margin-left: 37px;
+}
+
+.table-games__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.table-games__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    cursor: pointer;
+}
+
+.table-games__checkbox {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: -37px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.table-games__input:checked + .table-games__checkbox {
+    background-image: url('../img/icon_checkbox_checked.svg');
+    background-position: center;
+    background-size: 0.9em;
+    background-repeat: no-repeat;
+}

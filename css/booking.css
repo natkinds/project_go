@@ -1,5 +1,36 @@
+.booking {
+    padding-top: 80px;
+    background-color: #440F51;
+}
+
 .booking__button {
-    color: #FFFFFF;
-    padding: 8px 12px;
-    border: 1px solid #FFFFFF;
+    display: block;
+    margin-left: auto;
+    padding: 16px 50px;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #6C0287;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.booking__section {
+    margin-bottom: 60px;
+}
+
+.booking__section-title {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.booking__section-wrapper {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }

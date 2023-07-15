@@ -1,0 +1,8 @@
+.booking-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-time__input {
+    width: 134px;
+}

@@ -1,0 +1,18 @@
+.entertainment__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entertainment__item-name {
+    margin-bottom: 23px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.entertainment__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    line-height: normal;
+}
