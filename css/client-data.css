@@ -20,7 +20,7 @@
     margin-bottom: 6px;
 }
 
-.client-data__item_people::placeholder {
+.client-data__input_people::placeholder {
     padding-left: 5px;
     font-family: Arial;
     font-size: 18px;
