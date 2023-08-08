@@ -8,10 +8,13 @@
 }
 
 .banner__wrapper::after {
-    content: url('../img/img-banner.png');
+    content: "";
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 675px;
+    height: 762px;
+    background-image: url('../img/img-banner.png');
 }
 
 .banner__title {
@@ -77,9 +80,37 @@
     box-shadow: 0px 0px 15px 0px #6C0287;
 }
 
+.banner__button:hover {
+    background-color: #840AA3;
+}
+
+.banner__button:focus {
+    background-color: #840AA3;
+    outline: none;
+}
+
+.banner__button:active {
+    background-color: #640AA3;
+}
+
 .banner__button-down {
     position: absolute;
+    width: 97px;
+    height: 97px;
     bottom: 90px;
     left: 539px;
     z-index: 1;
+}
+
+.banner__button-down:hover {
+    content: url('../img/down-hover.svg');
+}
+
+.banner__button-down:focus {
+    content: url('../img/down-focus.svg');
+    outline: none;
+}
+
+.banner__button-down:active {
+    content: url('../img/down-active.svg');
 }

@@ -25,6 +25,10 @@
     cursor: pointer;
 }
 
+.additional__checkbox:focus {
+    border: 1px solid #CD06FF;
+}
+
 .additional__input:checked + .additional__checkbox {
     background-image: url('../img/icon_checkbox_checked.svg');
     background-position: center;

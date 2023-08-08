@@ -17,6 +17,25 @@
     background-color: #FFFFFF;
 }
 
+.booking__button:hover {
+    padding: 13px 47px;
+    background-color: #EADEED;
+    border: 3px solid #6C0287;
+}
+
+.booking__button:focus {
+    padding: 13px 47px;
+    background-color: #FFFFFF;
+    border: 3px solid #6C0287;
+    outline: none;
+}
+
+.booking__button:active {
+    padding: 16px 50px;
+    background-color: #EADEED;
+    border: none;
+}
+
 .booking__section {
     margin-bottom: 60px;
 }

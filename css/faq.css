@@ -26,9 +26,13 @@
 }
 
 .faq__list-item:nth-child(even):after {
-    background-image: url(/img/icon-open.svg);
+    background-image: url('/img/icon-open.svg');
 }
 
 .faq__list-item:nth-child(odd):after {
-    background-image: url(/img/icon-open-purple.svg);
+    background-image: url('/img/icon-open-purple.svg');
+}
+
+.faq__list-item:nth-child(even):after:hover {
+    content: url('../img/down-hover.svg');
 }

@@ -26,6 +26,10 @@
     cursor: pointer;
 }
 
+.console__radio:focus {
+    border: 1px solid #CD06FF;
+}
+
 .console__input:checked + .console__radio {
     border: 7px solid #FFFFFF;
     background-color: #000000;
