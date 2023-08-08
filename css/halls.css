@@ -1,4 +1,4 @@
-.halls__list {
+/* .halls__list {
     padding-bottom: 50px;
 }
 
@@ -17,6 +17,50 @@
 
 .halls__list-item:nth-child(-n+2) {
     margin-bottom: 20px;
+}
+
+.halls__list-item_theme_80s-vibes {
+    background-image: url('../img/img-80s-vibes.jpg');
+}
+
+.halls__list-item_theme_star-wars {
+    background-image: url('../img/img-star-wars.jpg');
+}
+
+.halls__list-item_theme_wild-west {
+    background-image: url('../img/img-wild-west.jpg');
+}
+
+.halls__list-item_theme_neon-style {
+    background-image: url('../img/img-neon-style.jpg');
+}
+
+.halls__subtitle {
+    padding: 135px 0;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: pre-line;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+.halls__list {
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.halls__list-item {
+    width: 580px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .halls__list-item_theme_80s-vibes {
