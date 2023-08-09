@@ -51,3 +51,11 @@
     justify-content: space-between;
     width: 587px;
 }
+
+.header__menu-list-item:hover {
+    color: #CD06FF;
+}
+
+.header__menu-list-item:active {
+    color: #640AA3;
+}
