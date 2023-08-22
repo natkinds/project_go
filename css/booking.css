@@ -15,6 +15,7 @@
     color: #6C0287;
     border-radius: 10px;
     background-color: #FFFFFF;
+    transition: 0.2s;
 }
 
 .booking__button:hover {

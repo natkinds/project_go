@@ -11,6 +11,11 @@
 .advantages__figure {
     position: relative;
     height: 228px;
+    transition: 0.2s;
+}
+
+.advantages__figure:hover {
+    transform: scale(1.1);
 }
 
 .advantages__item-name {

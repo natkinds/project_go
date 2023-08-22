@@ -78,6 +78,7 @@
     border-radius: 10px;
     background-color: #6C0287;
     box-shadow: 0px 0px 15px 0px #6C0287;
+    transition: 0.2s;
 }
 
 .banner__button:hover {
@@ -94,23 +95,26 @@
 }
 
 .banner__button-down {
+    background-image: url('../img/down.svg');
     position: absolute;
     width: 97px;
     height: 97px;
     bottom: 90px;
     left: 539px;
     z-index: 1;
+    transition: 0.2s;
 }
 
 .banner__button-down:hover {
-    content: url('../img/down-hover.svg');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="97" height="97" viewBox="0 0 97 97" fill="none"><circle cx="48.5" cy="48.5" r="48" fill="white" stroke="white"/><rect x="34.4253" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4253 43.9162)" fill="%236C0287"/><rect x="48.5806" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5806 58.0737)" fill="%236C0287"/></svg>');
 }
 
 .banner__button-down:focus {
-    content: url('../img/down-focus.svg');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none"><circle cx="49.0052" cy="49.005" r="47.515" stroke="white"/><rect x="35.0713" y="44.4669" width="1.80181" height="19.8199" transform="rotate(-44.9975 35.0713 44.4669)" fill="white"/><rect x="49.085" y="58.483" width="1.80181" height="19.8199" transform="rotate(-134.997 49.085 58.483)" fill="white"/><rect x="0.5" y="0.5" width="98" height="98" stroke="%23CD06FF"/></svg>');
     outline: none;
+    background-size: cover;
 }
 
 .banner__button-down:active {
-    content: url('../img/down-active.svg');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="97" height="97" viewBox="0 0 97 97" fill="none"><circle cx="48.5" cy="48.5" r="48" fill="%23CD06FF" stroke="%23CD06FF"/><rect x="34.4253" y="43.9161" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4253 43.9161)" fill="white"/><rect x="48.5806" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5806 58.0737)" fill="white"/></svg>');
 }
