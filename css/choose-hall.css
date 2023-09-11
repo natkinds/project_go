@@ -43,7 +43,7 @@
     padding: 4px 12px 5px;
     color: #FFFFFF;
     border: 3px solid #FFF;
-    background-color: #6C0287;
+    background-color: var(--main-color, #6C0287);
 }
 
 /* .choose-hall__radio:checked + .choose-hall__item {

@@ -27,7 +27,7 @@
 }
 
 .console__radio:focus {
-    border: 1px solid #CD06FF;
+    border: 1px solid var(--second-color, #CD06FF);
 }
 
 .console__input:checked + .console__radio {

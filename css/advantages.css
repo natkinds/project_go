@@ -1,3 +1,7 @@
+.advantages {
+    padding-bottom: 120px;
+}
+
 .advantages__list {
     display: flex;
     flex-wrap: wrap;
@@ -22,4 +26,8 @@
     position: absolute;
     top: 166px;
     left: 40px;
+}
+
+.advantages__item_transform {
+    transform: translateY(70px);
 }

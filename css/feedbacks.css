@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+.feedbacks__list-item {
+    position: relative;
+}
+
 .feedbacks__list-item:not(:last-child) {
     margin-bottom: 50px;
 }
@@ -21,15 +25,26 @@
     border-radius: 50%;
 }
 
-.feedbacks__client-photo_client_max-samoilov {
+.feedbacks__image::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0.00) 0%, rgba(108, 2, 135, 0.50) 100%);
+}
+
+.feedbacks__client-photo_max-samoilov {
     object-position: top;
 }
 
-.feedbacks__client-photo_client_oksana-grigorieva {
+.feedbacks__client-photo_oksana-grigorieva {
     object-position: 0 -40px;
 }
 
-.feedbacks__client-photo_client_nikita-yashenko {
+.feedbacks__client-photo_nikita-yashenko {
     object-position: 0 -85px;
 }
 
