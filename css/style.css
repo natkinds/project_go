@@ -18,8 +18,8 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-    color: #FFFFFF;
-    background-color: #1B1A1B;
+    color: var(--main-color, #FFFFFF);
+    background-color: var(--background-color-main, #1B1A1B);
 }
 
 img, svg {
@@ -85,7 +85,7 @@ iframe {
 
 .footer {
     padding-bottom: 10px;
-    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+    background: linear-gradient(180deg, var(--background-color-main, #1B1A1B) 0%, var(--background-color-add, #370A37) 100%);
 }
 
 .button {

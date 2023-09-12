@@ -15,16 +15,16 @@
     display: block;
     width: 50px;
     height: 50px;
-    color: #FFFFFF;
+    color: var(--main-color, #FFFFFF);
     transition: 0.2s;
 }
 
 .social__link:hover {
-    color: #EADEED;
+    color: var(--fifth-color, #EADEED);
 }
 
 .social__link:focus {
-    color: #EADEED;
+    color: var(--fifth-color, #EADEED);
     border: 1px solid var(--second-color, #CD06FF);
     outline: none;
 }

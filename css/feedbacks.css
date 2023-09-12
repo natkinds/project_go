@@ -33,7 +33,7 @@
     width: 280px;
     height: 280px;
     border-radius: 50%;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0.00) 0%, rgba(108, 2, 135, 0.50) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, #c4c4c400 0%, #6c028780 100%);
 }
 
 .feedbacks__client-photo_max-samoilov {

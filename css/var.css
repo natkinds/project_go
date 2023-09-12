@@ -1,4 +1,11 @@
 :root {
-    --main-color: #6C0287;
+    --background-color-main: #1B1A1B;
+    --background-color-add: #370A37;
+    --background-color-booking: #440F51;
+    --main-color: #FFFFFF;
+    --first-color: #6C0287;
     --second-color: #CD06FF;
+    --third-color: #640AA3;
+    --fourh-color: #840AA3;
+    --fifth-color: #EADEED;
 }

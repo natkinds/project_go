@@ -1,40 +1,39 @@
 .booking {
     padding-top: 80px;
-    background-color: #440F51;
+    background-color: var(--background-color-booking, #440F51);
 }
 
 .booking__button {
     display: block;
     margin-left: auto;
-    padding: 16px 50px;
+    /* padding: 16px 50px; */
+    padding: 13px 47px;
     font-family: Arial;
     font-size: 22px;
     font-weight: 700;
     line-height: 28px;
     text-transform: uppercase;
-    color: var(--main-color, #6C0287);
+    color: var(--first-color, #6C0287);
     border-radius: 10px;
-    background-color: #FFFFFF;
+    border: 3px solid  var(--main-color, #FFFFFF);
+    background-color: var(--main-color, #FFFFFF);
     transition: 0.2s;
 }
 
 .booking__button:hover {
-    padding: 13px 47px;
-    background-color: #EADEED;
-    border: 3px solid var(--main-color, #6C0287);
+    background-color: var(--fifth-color, #EADEED);
+    border-color: var(--first-color, #6C0287);
 }
 
 .booking__button:focus {
-    padding: 13px 47px;
-    background-color: #FFFFFF;
-    border: 3px solid var(--main-color, #6C0287);
+    background-color:  var(--main-color, #FFFFFF);
+    border-color: var(--first-color, #6C0287);
     outline: none;
 }
 
 .booking__button:active {
-    padding: 16px 50px;
-    background-color: #EADEED;
-    border: none;
+    border-color: var(--fifth-color, #EADEED);
+    background-color: var(--fifth-color, #EADEED);
 }
 
 .booking__section {

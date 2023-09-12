@@ -26,7 +26,7 @@
 
 .blockquote__quotes, .blockquote__text-wrapper::before {
     font-weight: 900;
-    color: var(--main-color, #6C0287);
+    color: var(--first-color, #6C0287);
 }
 
 .blockquote__ref {

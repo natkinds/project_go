@@ -27,11 +27,29 @@
 }
 
 .adress__phone {
+    transition: 0.2s;
     background-image: url('../img/icon-phone-call.svg');
 }
 
+.adress__phone:hover {
+    color: var(--second-color, #CD06FF);
+}
+
+.adress__phone:active {
+    color: var(--third-color, #640AA3);
+}
+
 .adress__email {
+    transition: 0.2s;
     background-image: url('../img/icon-mail.svg');
+}
+
+.adress__email:hover {
+    color: var(--second-color, #CD06FF);
+}
+
+.adress__email:active {
+    color: var(--third-color, #640AA3);
 }
 
 .adress__text {

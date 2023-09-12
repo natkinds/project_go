@@ -21,7 +21,7 @@
     width: 25px;
     height: 25px;
     margin-left: -37px;
-    background-color: #FFFFFF;
+    background-color: var(--main-color, #FFFFFF);
     cursor: pointer;
 }
 
